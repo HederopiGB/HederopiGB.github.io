@@ -11,11 +11,39 @@ input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
 
+body {
+    background-color: #e3e3e3;
+}
+
 /* Desktops */
-@media (min-width: 768px) { body { padding: 4% 20% } }
+@media (min-width: 768px) { section { padding: 4% 20% } }
 
 /* Mobiles */
-@media (max-width: 767px) { body { padding: 12% 8% } }
+@media (max-width: 767px) { section { padding: 12% 8% } }
+
+section{
+    padding: 5%;
+}
+
+.section-1{
+    background-color: #277D1F;
+}
+
+.section-2{
+    background-color: #B90C0A;
+}
+
+.section-3{
+    background-color: #FFFFFF;
+}
+
+.section-4{
+    background-color: #8ABC72;
+}
+
+.section-5{
+    background-color: #277D1F;
+}
 
 h1 {
     font-size: 84px;
