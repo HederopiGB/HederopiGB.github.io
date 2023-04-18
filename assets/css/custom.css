@@ -181,7 +181,6 @@ body {
 }
 
 .background {
-    background : url(../img/Pouce-en-lair.png) repeat;
     border: 1px solid black;
     opacity: 0.6;
 }
